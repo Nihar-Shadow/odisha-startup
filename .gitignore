@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python virtual environments & bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+**/venv/
+**/.venv/
+**/env/
+
+# Environment variables & secrets
+.env
+**/.env
+.env.local
+.env.*.local
+!**/.env.example
+
+# Build outputs & caches
+dist/
+**/dist/
+build/
+**/build/
+.cache/
+**/.cache/
+
+# Logs
+logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
